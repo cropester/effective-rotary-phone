@@ -1,1 +1,3 @@
-console.log("Hello World, how are you was steht heute an?");
+readline.question(`Bereit zum Rechnen? (Ja / Nein)`, (name) => {
+  console.log(`Hi ${name}!`)
+  readline.close()

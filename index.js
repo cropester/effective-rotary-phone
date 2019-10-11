@@ -1,3 +1,8 @@
-readline.question(`Bereit zum Rechnen? (Ja / Nein)`, (name) => {
-  console.log(`Hi ${name}!`)
-  readline.close()
+function addition(){
+  const eingabe = document.getElementById('eingabe').value
+  const ausgabe = document.getElementById('ausgabe').value
+  document.getElementById('ausgabe').value = +eingabe + ausgabe
+
+alert("das ergebnis ist" +eingabe + +ausgabe);
+
+}

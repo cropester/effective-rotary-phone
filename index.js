@@ -1,8 +1,8 @@
-function addition(){
-  const eingabe = document.getElementById('eingabe').value
-  const ausgabe = document.getElementById('ausgabe').value
-  document.getElementById('ausgabe').value = +eingabe + ausgabe
+let tim = [1,"Tomas",false];
 
-alert("das ergebnis ist" +eingabe + +ausgabe);
-
+function whatEver(){
+  console.log(tim[1]);
 }
+
+
+whatEver();
